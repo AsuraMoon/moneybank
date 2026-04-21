@@ -1,3 +1,26 @@
+# 💳 MoneyBank
+
+**MoneyBank** est une application bancaire moderne construite avec **Next.js 16**, **React 19** et **Supabase**.  
+Elle propose une authentification sécurisée, la gestion de plusieurs comptes bancaires par utilisateur et des transferts internes fiables grâce à une base **PostgreSQL** structurée et transactionnelle.
+
+## ✨ Fonctionnalités
+- Authentification Supabase (email + password)
+- Sessions sécurisées via SSR + middleware
+- Gestion multi‑comptes (1 utilisateur → plusieurs comptes)
+- Transferts internes avec transactions ACID
+- Audit logs pour les actions sensibles
+
+## 🛠️ Stack
+- Next.js 16 (App Router)
+- React 19
+- Supabase Auth
+- PostgreSQL
+- Zod
+- TailwindCSS 4
+
+## 🎯 Objectif
+Fournir une base solide pour une application bancaire moderne, sécurisée et extensible.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
